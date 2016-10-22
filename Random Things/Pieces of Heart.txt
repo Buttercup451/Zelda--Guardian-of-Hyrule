@@ -1,0 +1,5 @@
+1. C1/Cave - “piece_of_heart_1”
+2. A1/Cave - “a1_cave_piece_of_heart”
+3. B2/Hidden Cave - “b2_hidden_cave_piece_of_heart”
+4. D1/Kakariko Outskirts - “d1_race_piece_of_heart”
+5. D1/Chest House - “d1_chest_house_piece_of_heart”

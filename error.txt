@@ -1,0 +1,2 @@
+[Solarus] [0] Warning: Cannot use quest size 320x240: this quest only supports 256x192 to 256x192. Using 256x192 instead.
+[Solarus] [2060] Warning: The function map:get_camera_position() is deprecated and may be removed in a future version. Use map:get_camera():get_bounding_box() instead.

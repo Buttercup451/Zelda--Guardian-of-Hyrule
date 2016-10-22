@@ -1,0 +1,588 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 270,
+  world = "inside_world",
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "house",
+  music = "same",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 40,
+  width = 240,
+  height = 128,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 40,
+  width = 224,
+  height = 8,
+  pattern = "wall_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 168,
+  width = 32,
+  height = 64,
+  pattern = "floor_low.9",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 200,
+  width = 176,
+  height = 32,
+  pattern = "floor_low.9",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 168,
+  width = 32,
+  height = 64,
+  pattern = "floor_low.9",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 16,
+  width = 240,
+  height = 24,
+  pattern = "wall.1",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 40,
+  width = 24,
+  height = 192,
+  pattern = "wall.3",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 232,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 232,
+  width = 240,
+  height = 24,
+  pattern = "wall.2",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 232,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 40,
+  width = 24,
+  height = 192,
+  pattern = "wall.4",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 232,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.1",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 232,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.2",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "door.2",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 232,
+  width = 32,
+  height = 24,
+  pattern = "wall_statue.2",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 232,
+  width = 32,
+  height = 24,
+  pattern = "wall_statue.2",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 216,
+  width = 32,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 192,
+  width = 48,
+  height = 24,
+  pattern = "750",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 160,
+  width = 8,
+  height = 32,
+  pattern = "floor_border.2",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 160,
+  width = 32,
+  height = 8,
+  pattern = "floor_border.2",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 160,
+  width = 32,
+  height = 8,
+  pattern = "floor_border.2",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 160,
+  width = 8,
+  height = 40,
+  pattern = "floor_border.2",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 192,
+  width = 24,
+  height = 40,
+  pattern = "745",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 192,
+  width = 128,
+  height = 8,
+  pattern = "floor_border.2",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 160,
+  width = 160,
+  height = 32,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 168,
+  width = 16,
+  height = 8,
+  pattern = "724",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "723",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "725",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 120,
+  width = 8,
+  height = 48,
+  pattern = "722",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "717",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 120,
+  width = 16,
+  height = 48,
+  pattern = "721",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 120,
+  width = 8,
+  height = 48,
+  pattern = "720",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "719",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 112,
+  width = 16,
+  height = 8,
+  pattern = "718",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "738",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "738",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "742",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "743",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "744",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 24,
+  width = 32,
+  height = 32,
+  pattern = "751",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 32,
+  width = 32,
+  height = 16,
+  pattern = "740",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "740",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 48,
+  width = 8,
+  height = 80,
+  pattern = "wall_border.4",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 120,
+  width = 32,
+  height = 40,
+  pattern = "746",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 48,
+  width = 8,
+  height = 80,
+  pattern = "wall_border.3",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 120,
+  width = 32,
+  height = 40,
+  pattern = "746",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 256,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 256,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 248,
+  width = 16,
+  height = 32,
+  pattern = "floor.1",
+}
+
+destructible{
+  layer = 1,
+  x = 272,
+  y = 229,
+  treasure_name = "rupee",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+}
+
+destructible{
+  layer = 1,
+  x = 256,
+  y = 229,
+  treasure_name = "rupee",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+}
+
+teletransporter{
+  name = "to_lumberjack_yard",
+  layer = 1,
+  x = 152,
+  y = 256,
+  width = 16,
+  height = 16,
+  destination_map = "Overworld/A2/A2",
+}
+
+destination{
+  name = "from_lumberjack_yard",
+  layer = 1,
+  x = 160,
+  y = 245,
+  direction = 1,
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 16,
+  width = 16,
+  height = 240,
+  pattern = "ceiling",
+}
+
+tile{
+  layer = 2,
+  x = 304,
+  y = 16,
+  width = 16,
+  height = 240,
+  pattern = "ceiling",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 16,
+  pattern = "ceiling",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 256,
+  width = 320,
+  height = 16,
+  pattern = "ceiling",
+}
+
+tile{
+  layer = 2,
+  x = 144,
+  y = 248,
+  width = 32,
+  height = 8,
+  pattern = "door_top.stairs.2",
+}
+
+tile{
+  layer = 2,
+  x = 176,
+  y = 24,
+  width = 32,
+  height = 8,
+  pattern = "741",
+}
+
+tile{
+  layer = 2,
+  x = 184,
+  y = 40,
+  width = 16,
+  height = 8,
+  pattern = "741",
+}
+

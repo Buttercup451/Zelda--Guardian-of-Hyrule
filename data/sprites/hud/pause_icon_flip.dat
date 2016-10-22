@@ -1,0 +1,8 @@
+animation{
+  name = "flip",
+  src_image = "hud/icons_flip.png",
+  frame_delay = 20,
+  directions = {
+    { x = 0, y = 41, frame_width = 18, frame_height = 18, origin_x = 0, origin_y = 0, num_frames = 11 },
+  },
+}

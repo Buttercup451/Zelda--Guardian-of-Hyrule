@@ -1,0 +1,7 @@
+animation{
+  name = "block",
+  src_image = "tileset",
+  directions = {
+    { x = 51, y = 2, frame_width = 26, frame_height = 24, origin_x = 13, origin_y = 20 },
+  },
+}

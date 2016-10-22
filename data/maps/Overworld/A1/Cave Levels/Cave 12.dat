@@ -1,0 +1,282 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 256,
+  height = 192,
+  min_layer = 0,
+  max_layer = 2,
+  world = "inside_world",
+  tileset = "cave",
+  music = "same",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 40,
+  width = 176,
+  height = 112,
+  pattern = "floor.14",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 16,
+  width = 80,
+  height = 24,
+  pattern = "wall.1",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 16,
+  width = 80,
+  height = 24,
+  pattern = "wall.1",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 40,
+  width = 24,
+  height = 112,
+  pattern = "wall.3",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 152,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 152,
+  width = 176,
+  height = 24,
+  pattern = "wall.2",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 152,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 40,
+  width = 24,
+  height = 112,
+  pattern = "wall.4",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 24,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.2",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 24,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.1",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "door_stairs.straight_down.1",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 40,
+  width = 160,
+  height = 8,
+  pattern = "wall_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 48,
+  width = 8,
+  height = 96,
+  pattern = "wall_border.4",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 144,
+  width = 160,
+  height = 8,
+  pattern = "wall_border.2",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 48,
+  width = 8,
+  height = 96,
+  pattern = "wall_border.3",
+}
+
+stairs{
+  layer = 1,
+  x = 120,
+  y = 24,
+  direction = 1,
+  subtype = 3,
+}
+
+teletransporter{
+  name = "to_cave_final",
+  layer = 1,
+  x = 120,
+  y = 24,
+  width = 16,
+  height = 16,
+  destination_map = "Overworld/A1/Cave Levels/Cave Final",
+  destination = "from_cave_12",
+}
+
+destination{
+  name = "from_cave_final",
+  layer = 1,
+  x = 128,
+  y = 37,
+  direction = 3,
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 16,
+  width = 16,
+  height = 160,
+  pattern = "ceiling",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 256,
+  height = 16,
+  pattern = "ceiling",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 176,
+  width = 256,
+  height = 16,
+  pattern = "ceiling",
+}
+
+tile{
+  layer = 2,
+  x = 112,
+  y = 16,
+  width = 32,
+  height = 8,
+  pattern = "door_top.stairs.1",
+}
+
+tile{
+  layer = 2,
+  x = 240,
+  y = 16,
+  width = 16,
+  height = 160,
+  pattern = "ceiling",
+}
+
+tile{
+  layer = 2,
+  x = 120,
+  y = 16,
+  width = 16,
+  height = 8,
+  pattern = "door_top.stairs_up.2",
+}
+

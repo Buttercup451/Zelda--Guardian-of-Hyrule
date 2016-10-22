@@ -44,11 +44,6 @@ function puzzle_start:on_interaction()
   end)
 end
 
-function hero_fall_sensor:on_activated()
-  sol.audio.play_sound("hero_lands")
-  self:set_enabled(false)
-end
-
 function hole_switch:on_activated()
   sol.audio.play_sound("secret")
   map:set_entities_enabled("hole_part", true)

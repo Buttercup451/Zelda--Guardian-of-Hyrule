@@ -20,22 +20,17 @@ function map:on_started()
   chest_6.on_opened = open_chest
   chest_7.on_opened = open_chest
   chest_8.on_opened = open_chest
-  chest_9.on_opened = open_chest
   chest_10.on_opened = open_chest
   chest_11.on_opened = open_chest
   chest_12.on_opened = open_chest
   chest_13.on_opened = open_chest
   chest_14.on_opened = open_chest
-  chest_15.on_opened = open_chest
   chest_16.on_opened = open_chest
   chest_17.on_opened = open_chest
   chest_18.on_opened = open_chest
   chest_19.on_opened = open_chest
-  chest_20.on_opened = open_chest
   chest_21.on_opened = open_chest
-  chest_22.on_opened = open_chest
   chest_23.on_opened = open_chest
-  chest_24.on_opened = open_chest
 end
 
 function thief:on_interaction()

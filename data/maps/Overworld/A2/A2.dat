@@ -5491,6 +5491,24 @@ tile{
   pattern = "grass.under_stone",
 }
 
+tile{
+  layer = 0,
+  x = 208,
+  y = 56,
+  width = 48,
+  height = 16,
+  pattern = "grass.tree.roots.1",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 72,
+  width = 48,
+  height = 8,
+  pattern = "grass.tree.roots.2",
+}
+
 sensor{
   name = "lumberjack_house_door_sensor",
   layer = 0,
@@ -5957,15 +5975,6 @@ destructible{
 
 tile{
   layer = 1,
-  x = 208,
-  y = 72,
-  width = 48,
-  height = 8,
-  pattern = "grass.tree.roots.2",
-}
-
-tile{
-  layer = 1,
   x = 112,
   y = 168,
   width = 48,
@@ -6160,15 +6169,6 @@ tile{
   width = 8,
   height = 24,
   pattern = "house.wall.corner.2",
-}
-
-tile{
-  layer = 1,
-  x = 208,
-  y = 56,
-  width = 48,
-  height = 16,
-  pattern = "grass.tree.roots.1",
 }
 
 tile{

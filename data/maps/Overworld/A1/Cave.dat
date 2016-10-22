@@ -165,249 +165,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 80,
-  y = 312,
-  width = 32,
-  height = 32,
-  pattern = "hole_parallax.5",
-}
-
-tile{
-  layer = 0,
-  x = 112,
-  y = 272,
-  width = 32,
-  height = 32,
-  pattern = "hole_parallax.5",
-}
-
-tile{
-  layer = 0,
-  x = 144,
-  y = 312,
-  width = 32,
-  height = 32,
-  pattern = "hole_parallax.5",
-}
-
-tile{
-  layer = 0,
-  x = 80,
-  y = 312,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.1",
-}
-
-tile{
-  layer = 0,
-  x = 104,
-  y = 312,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.2",
-}
-
-tile{
-  layer = 0,
-  x = 104,
-  y = 336,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.4",
-}
-
-tile{
-  layer = 0,
-  x = 80,
-  y = 336,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.3",
-}
-
-tile{
-  layer = 0,
-  x = 80,
-  y = 320,
-  width = 8,
-  height = 16,
-  pattern = "hole.3",
-}
-
-tile{
-  layer = 0,
-  x = 88,
-  y = 312,
-  width = 16,
-  height = 8,
-  pattern = "hole.1",
-}
-
-tile{
-  layer = 0,
-  x = 104,
-  y = 320,
-  width = 8,
-  height = 16,
-  pattern = "hole.4",
-}
-
-tile{
-  layer = 0,
-  x = 88,
-  y = 336,
-  width = 16,
-  height = 8,
-  pattern = "hole.2",
-}
-
-tile{
-  layer = 0,
-  x = 112,
-  y = 272,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.1",
-}
-
-tile{
-  layer = 0,
-  x = 136,
-  y = 272,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.2",
-}
-
-tile{
-  layer = 0,
-  x = 136,
-  y = 296,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.4",
-}
-
-tile{
-  layer = 0,
-  x = 112,
-  y = 296,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.3",
-}
-
-tile{
-  layer = 0,
-  x = 112,
-  y = 280,
-  width = 8,
-  height = 16,
-  pattern = "hole.3",
-}
-
-tile{
-  layer = 0,
-  x = 120,
-  y = 272,
-  width = 16,
-  height = 8,
-  pattern = "hole.1",
-}
-
-tile{
-  layer = 0,
-  x = 136,
-  y = 280,
-  width = 8,
-  height = 16,
-  pattern = "hole.4",
-}
-
-tile{
-  layer = 0,
-  x = 120,
-  y = 296,
-  width = 16,
-  height = 8,
-  pattern = "hole.2",
-}
-
-tile{
-  layer = 0,
-  x = 144,
-  y = 312,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.1",
-}
-
-tile{
-  layer = 0,
-  x = 168,
-  y = 312,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.2",
-}
-
-tile{
-  layer = 0,
-  x = 168,
-  y = 336,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.4",
-}
-
-tile{
-  layer = 0,
-  x = 144,
-  y = 336,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.3",
-}
-
-tile{
-  layer = 0,
-  x = 144,
-  y = 320,
-  width = 8,
-  height = 16,
-  pattern = "hole.3",
-}
-
-tile{
-  layer = 0,
-  x = 152,
-  y = 312,
-  width = 16,
-  height = 8,
-  pattern = "hole.1",
-}
-
-tile{
-  layer = 0,
-  x = 168,
-  y = 320,
-  width = 8,
-  height = 16,
-  pattern = "hole.4",
-}
-
-tile{
-  layer = 0,
-  x = 152,
-  y = 336,
-  width = 16,
-  height = 8,
-  pattern = "hole.2",
-}
-
-tile{
-  layer = 0,
   x = 72,
   y = 160,
   width = 16,
@@ -505,6 +262,17 @@ tile{
   pattern = "wall_low_border.corner.2",
 }
 
+dynamic_tile{
+  name = "hole_part_9",
+  layer = 0,
+  x = 112,
+  y = 272,
+  pattern = "hole_parallax.5",
+  width = 32,
+  height = 32,
+  enabled_at_start = true,
+}
+
 stairs{
   layer = 0,
   x = 120,
@@ -566,6 +334,292 @@ npc{
   behavior = "dialog#A1.cave.top_floor.cars",
 }
 
+dynamic_tile{
+  name = "hole_part",
+  layer = 0,
+  x = 120,
+  y = 296,
+  pattern = "hole.2",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "hole_part_2",
+  layer = 0,
+  x = 112,
+  y = 296,
+  pattern = "hole.corner.3",
+  width = 8,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "hole_part_3",
+  layer = 0,
+  x = 112,
+  y = 280,
+  pattern = "hole.3",
+  width = 8,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "hole_part_4",
+  layer = 0,
+  x = 112,
+  y = 272,
+  pattern = "hole.corner.1",
+  width = 8,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "hole_part_5",
+  layer = 0,
+  x = 120,
+  y = 272,
+  pattern = "hole.1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "hole_part_6",
+  layer = 0,
+  x = 136,
+  y = 272,
+  pattern = "hole.corner.2",
+  width = 8,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "hole_part_7",
+  layer = 0,
+  x = 136,
+  y = 296,
+  pattern = "hole.corner.4",
+  width = 8,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "hole_part_8",
+  layer = 0,
+  x = 136,
+  y = 280,
+  pattern = "hole.4",
+  width = 8,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "hole_part_10",
+  layer = 0,
+  x = 80,
+  y = 312,
+  pattern = "hole_parallax.5",
+  width = 32,
+  height = 32,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "hole_part_11",
+  layer = 0,
+  x = 88,
+  y = 336,
+  pattern = "hole.2",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "hole_part_12",
+  layer = 0,
+  x = 80,
+  y = 336,
+  pattern = "hole.corner.3",
+  width = 8,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "hole_part_13",
+  layer = 0,
+  x = 80,
+  y = 320,
+  pattern = "hole.3",
+  width = 8,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "hole_part_14",
+  layer = 0,
+  x = 80,
+  y = 312,
+  pattern = "hole.corner.1",
+  width = 8,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "hole_part_15",
+  layer = 0,
+  x = 88,
+  y = 312,
+  pattern = "hole.1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "hole_part_16",
+  layer = 0,
+  x = 104,
+  y = 312,
+  pattern = "hole.corner.2",
+  width = 8,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "hole_part_17",
+  layer = 0,
+  x = 104,
+  y = 336,
+  pattern = "hole.corner.4",
+  width = 8,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "hole_part_18",
+  layer = 0,
+  x = 104,
+  y = 320,
+  pattern = "hole.4",
+  width = 8,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "hole_part_19",
+  layer = 0,
+  x = 144,
+  y = 312,
+  pattern = "hole_parallax.5",
+  width = 32,
+  height = 32,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "hole_part_20",
+  layer = 0,
+  x = 152,
+  y = 336,
+  pattern = "hole.2",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "hole_part_21",
+  layer = 0,
+  x = 144,
+  y = 336,
+  pattern = "hole.corner.3",
+  width = 8,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "hole_part_22",
+  layer = 0,
+  x = 144,
+  y = 320,
+  pattern = "hole.3",
+  width = 8,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "hole_part_23",
+  layer = 0,
+  x = 144,
+  y = 312,
+  pattern = "hole.corner.1",
+  width = 8,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "hole_part_24",
+  layer = 0,
+  x = 152,
+  y = 312,
+  pattern = "hole.1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "hole_part_25",
+  layer = 0,
+  x = 168,
+  y = 312,
+  pattern = "hole.corner.2",
+  width = 8,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "hole_part_26",
+  layer = 0,
+  x = 168,
+  y = 336,
+  pattern = "hole.corner.4",
+  width = 8,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "hole_part_27",
+  layer = 0,
+  x = 168,
+  y = 320,
+  pattern = "hole.4",
+  width = 8,
+  height = 16,
+  enabled_at_start = true,
+}
+
 teletransporter{
   name = "hole_part_28",
   layer = 0,
@@ -578,7 +632,7 @@ teletransporter{
 }
 
 teletransporter{
-  name = "hole_part_29",
+  name = "hole_part_30",
   layer = 0,
   x = 144,
   y = 312,
@@ -589,6 +643,7 @@ teletransporter{
 }
 
 teletransporter{
+  name = "hole_part_31",
   layer = 0,
   x = 80,
   y = 312,
@@ -1554,15 +1609,6 @@ destination{
   x = 168,
   y = 189,
   direction = -1,
-}
-
-sensor{
-  name = "hero_fall_sensor",
-  layer = 1,
-  x = 168,
-  y = 189,
-  width = 16,
-  height = 16,
 }
 
 jumper{

@@ -7146,7 +7146,7 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "Overworld/B2/Hidden Cave",
-  destination = "from_fortune_teller",
+  destination = "from_outside",
 }
 
 destination{

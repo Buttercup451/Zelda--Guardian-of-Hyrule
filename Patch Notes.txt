@@ -1,3 +1,7 @@
+10-23-16
+Adds the “Blacksmith's House Area” to the Overworld. Can be accessed by heading east of Kakariko Village.
+Fixed the map size of the chest house south of Kakariko Village.
+
 10-22-16
 Resolution has been updated to 256x224. This is to make the appearance more reminiscent of the SNES.
 New players now start off with some weapons when starting a new game.

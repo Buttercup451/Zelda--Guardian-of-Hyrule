@@ -308,8 +308,8 @@ dialog{
   id = "D1.chest_house.introduction",
   skip = "all",
   text = [[
-Welcome my little chest game! You 
-pay 150 rupees and I'll let you 
+Welcome to my little chest game!
+You pay 150 rupees and I'll let you 
 open up 2 of my precious chests.
 Whatever's inside is yours to keep.
 ]]
@@ -2518,7 +2518,6 @@ dialog{
   icon = "90",
   text = [[
 You found 300 Rupees!
-
 
 
 Um, seriously?$0 Who leaves

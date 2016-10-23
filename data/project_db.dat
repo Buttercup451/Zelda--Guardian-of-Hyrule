@@ -45,6 +45,7 @@ map{ id = "Overworld/C1/Mary House", description = "Mary's House" }
 map{ id = "Overworld/C1/Sewer", description = "Sewer" }
 map{ id = "Overworld/C1/Shop", description = "Shop" }
 map{ id = "Overworld/C1/Storage House", description = "Storage House" }
+map{ id = "Overworld/C2/C2", description = "Blacksmith House" }
 map{ id = "Overworld/D1/Chest House", description = "Chest House" }
 map{ id = "Overworld/D1/D1", description = "Kakariko Outskirts" }
 map{ id = "Overworld/D1/Race House", description = "Race House" }

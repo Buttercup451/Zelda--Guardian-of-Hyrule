@@ -4440,9 +4440,9 @@ tile{
 
 tile{
   layer = 0,
-  x = 752,
+  x = 744,
   y = 304,
-  width = 48,
+  width = 64,
   height = 8,
   pattern = "water.cliff.2",
 }

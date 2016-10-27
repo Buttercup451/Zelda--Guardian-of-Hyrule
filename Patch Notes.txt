@@ -1,3 +1,9 @@
+10-26-16
+Added forest above “Blacksmith's House Area.”
+Fixed issue with hearts not displaying properly on the save selection screen.
+Added partial “Bomb Shop” in Kakariko Village
+Removed Link's House in the intro. Players will now start in the Lost Woods and multiple chests have been placed to give the player some items to toy around with.
+
 10-23-16
 Adds the “Blacksmith's House Area” to the Overworld. Can be accessed by heading east of Kakariko Village.
 Fixed the map size of the chest house south of Kakariko Village.

@@ -23945,6 +23945,17 @@ teletransporter{
   destination = "from_outside",
 }
 
+teletransporter{
+  layer = 0,
+  x = -16,
+  y = 288,
+  width = 16,
+  height = 48,
+  transition = "scrolling",
+  destination_map = "Overworld/C2/C2",
+  destination = "_side",
+}
+
 tile{
   layer = 1,
   x = 672,

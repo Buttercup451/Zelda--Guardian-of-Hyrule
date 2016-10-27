@@ -14,7 +14,7 @@ function map:on_started(destination)
 --Opens doors when hero walks towards them
 
  local entrance_names = {
-    "storage_house", "shop", "mary_house"
+    "storage_house", "shop", "mary_house", "bomb_shop"
   }                               
   for _, entrance_name in ipairs(entrance_names) do
     local sensor = map:get_entity(entrance_name .. "_door_sensor")

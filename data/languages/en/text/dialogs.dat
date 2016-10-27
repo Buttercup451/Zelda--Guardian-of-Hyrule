@@ -208,6 +208,18 @@ East - Sanctuary
 }
 
 dialog{
+  id = "C1.Bomb_Shop.Owner",
+  text = [[
+Welcome to my bomb shop, kid!
+
+
+I sell only the highest quality
+bombs in all of Hyrule! You'll find
+nothing better!
+]]
+}
+
+dialog{
   id = "C1.Mailboxes.Ben",
   next = "C1.Mailboxes.Ben.2",
   text = [[
@@ -1042,8 +1054,9 @@ dialog{
   icon = "1",
   skip = "all",
   text = [[
-Bombs can be used to destroy certain
-obstacles as well as hurt enemies.
+Bombs can be used to destroy 
+certain obstacles as well as
+hurt enemies.
 ]]
 }
 
@@ -2622,7 +2635,6 @@ advantage!
 dialog{
   id = "_treasure.sword.2",
   icon = "67",
-  next = "_treasure.sword.2.1",
   text = [[
 You got the Sword of Nayru!$0
 This was the sword Nayru used
@@ -2633,7 +2645,6 @@ in the Great War against Din.
 dialog{
   id = "_treasure.sword.3",
   icon = "68",
-  next = "_treasure.sword.2.1",
   text = [[
 You got Farore's Blade!$0$0$0
 This ancient blade is the one

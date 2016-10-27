@@ -158,7 +158,7 @@ function hearts:on_draw(dst_surface)
   end
 
   -- Everything was already drawn on self.surface.
-  self.surface:draw(dst_surface, x, 2)
+  self.surface:draw(dst_surface, x, y)
 end
 
 return hearts

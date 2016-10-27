@@ -1,0 +1,424 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 256,
+  height = 224,
+  min_layer = 0,
+  max_layer = 2,
+  world = "inside_world",
+  tileset = "house",
+  music = "same",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 184,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 184,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 16,
+  width = 176,
+  height = 24,
+  pattern = "wall.1",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 40,
+  width = 24,
+  height = 144,
+  pattern = "wall.3",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 184,
+  width = 80,
+  height = 24,
+  pattern = "wall.2",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 40,
+  width = 24,
+  height = 144,
+  pattern = "wall.4",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 40,
+  width = 176,
+  height = 144,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 176,
+  width = 160,
+  height = 8,
+  pattern = "wall_border.2",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 48,
+  width = 8,
+  height = 128,
+  pattern = "wall_border.4",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 40,
+  width = 160,
+  height = 8,
+  pattern = "wall_border.1",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 48,
+  width = 8,
+  height = 128,
+  pattern = "wall_border.3",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 184,
+  width = 80,
+  height = 24,
+  pattern = "wall.2",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "door.2",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 184,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.2",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 184,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.1",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 200,
+  width = 16,
+  height = 32,
+  pattern = "floor.1",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 208,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 208,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 104,
+  width = 8,
+  height = 16,
+  pattern = "710",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 104,
+  width = 120,
+  height = 16,
+  pattern = "711",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 104,
+  width = 8,
+  height = 16,
+  pattern = "712",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 88,
+  width = 8,
+  height = 16,
+  pattern = "707",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 88,
+  width = 8,
+  height = 16,
+  pattern = "709",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "704",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "706",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 80,
+  width = 120,
+  height = 8,
+  pattern = "705",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 88,
+  width = 120,
+  height = 16,
+  pattern = "708",
+}
+
+teletransporter{
+  name = "to_outside",
+  layer = 1,
+  x = 120,
+  y = 208,
+  width = 16,
+  height = 16,
+  destination_map = "Overworld/C1/C1",
+  destination = "from_bomb_shop",
+}
+
+destination{
+  name = "from_outside",
+  layer = 1,
+  x = 128,
+  y = 205,
+  direction = 1,
+}
+
+shop_treasure{
+  layer = 1,
+  x = 112,
+  y = 88,
+  treasure_name = "bomb",
+  treasure_variant = 2,
+  price = 40,
+  font = "white_digits",
+  dialog = "_item_description.bombs_counter.1",
+}
+
+shop_treasure{
+  layer = 1,
+  x = 64,
+  y = 88,
+  treasure_name = "bomb",
+  price = 10,
+  font = "white_digits",
+  dialog = "_item_description.bombs_counter.1",
+}
+
+shop_treasure{
+  layer = 1,
+  x = 160,
+  y = 88,
+  treasure_name = "bomb",
+  treasure_variant = 3,
+  price = 70,
+  font = "white_digits",
+  dialog = "_item_description.bombs_counter.1",
+}
+
+npc{
+  name = "bomb_shop_owner",
+  layer = 1,
+  x = 128,
+  y = 77,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/newlink4",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 16,
+  height = 224,
+  pattern = "ceiling",
+}
+
+tile{
+  layer = 2,
+  x = 16,
+  y = 208,
+  width = 240,
+  height = 16,
+  pattern = "ceiling",
+}
+
+tile{
+  layer = 2,
+  x = 240,
+  y = 0,
+  width = 16,
+  height = 208,
+  pattern = "ceiling",
+}
+
+tile{
+  layer = 2,
+  x = 16,
+  y = 0,
+  width = 224,
+  height = 16,
+  pattern = "ceiling",
+}
+
+tile{
+  layer = 2,
+  x = 120,
+  y = 200,
+  width = 16,
+  height = 8,
+  pattern = "door_cache.2",
+}
+
+tile{
+  layer = 2,
+  x = 112,
+  y = 200,
+  width = 32,
+  height = 8,
+  pattern = "door_top.low.2",
+}
+

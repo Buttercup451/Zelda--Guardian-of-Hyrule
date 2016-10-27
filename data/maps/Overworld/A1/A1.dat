@@ -10583,6 +10583,103 @@ destination{
   direction = 1,
 }
 
+chest{
+  layer = 0,
+  x = 272,
+  y = 253,
+  treasure_name = "boomerang",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 288,
+  y = 253,
+  treasure_name = "bomb_bag",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 304,
+  y = 253,
+  treasure_name = "bow",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 272,
+  y = 285,
+  treasure_name = "cane_of_somaria",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 288,
+  y = 285,
+  treasure_name = "feather",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 304,
+  y = 285,
+  treasure_name = "flippers",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 320,
+  y = 301,
+  treasure_name = "glove",
+  treasure_variant = 2,
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 256,
+  y = 285,
+  treasure_name = "hookshot",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 112,
+  y = 221,
+  treasure_name = "lamp",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 128,
+  y = 221,
+  treasure_name = "pegasus_shoes",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 144,
+  y = 221,
+  treasure_name = "shield",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 192,
+  y = 237,
+  treasure_name = "sword",
+  sprite = "entities/chest",
+}
+
 tile{
   layer = 1,
   x = 856,

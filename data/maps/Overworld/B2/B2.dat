@@ -7003,6 +7003,15 @@ tile{
   pattern = "grass.under_stone",
 }
 
+tile{
+  layer = 0,
+  x = 864,
+  y = 440,
+  width = 48,
+  height = 40,
+  pattern = "tree.under",
+}
+
 sensor{
   name = "fortune_teller_door_sensor",
   layer = 0,
@@ -8058,6 +8067,28 @@ destructible{
   weight = 1,
 }
 
+teletransporter{
+  layer = 0,
+  x = 640,
+  y = 504,
+  width = 96,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "Overworld/C2/C2",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 784,
+  y = 504,
+  width = 48,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "Overworld/C2/C2",
+  destination = "_side",
+}
+
 tile{
   layer = 1,
   x = 848,
@@ -8965,15 +8996,6 @@ tile{
   width = 8,
   height = 40,
   pattern = "tree.green.4",
-}
-
-tile{
-  layer = 1,
-  x = 864,
-  y = 440,
-  width = 48,
-  height = 40,
-  pattern = "tree.under",
 }
 
 tile{

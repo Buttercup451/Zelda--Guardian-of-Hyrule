@@ -39,13 +39,15 @@ map{ id = "Overworld/B1/B1", description = "South of Lost Woods" }
 map{ id = "Overworld/B2/B2", description = "Fortune Teller Area" }
 map{ id = "Overworld/B2/Fortune Teller", description = "Fortune Teller" }
 map{ id = "Overworld/B2/Hidden Cave", description = "Hidden Cave" }
+map{ id = "Overworld/C1/Bomb Shop/Bomb Shop", description = "Bomb Shop" }
 map{ id = "Overworld/C1/C1", description = "Kakariko Village" }
 map{ id = "Overworld/C1/Cave", description = "Cave" }
 map{ id = "Overworld/C1/Mary House", description = "Mary's House" }
 map{ id = "Overworld/C1/Sewer", description = "Sewer" }
 map{ id = "Overworld/C1/Shop", description = "Shop" }
 map{ id = "Overworld/C1/Storage House", description = "Storage House" }
-map{ id = "Overworld/C2/C2", description = "Blacksmith House" }
+map{ id = "Overworld/C2/C2", description = "Above Blacksmith" }
+map{ id = "Overworld/C3/C3", description = "Blacksmith House" }
 map{ id = "Overworld/D1/Chest House", description = "Chest House" }
 map{ id = "Overworld/D1/D1", description = "Kakariko Outskirts" }
 map{ id = "Overworld/D1/Race House", description = "Race House" }

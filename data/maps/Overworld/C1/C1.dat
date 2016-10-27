@@ -10307,6 +10307,15 @@ tile{
 }
 
 sensor{
+  name = "bomb_shop_door_sensor",
+  layer = 0,
+  x = 392,
+  y = 701,
+  width = 32,
+  height = 16,
+}
+
+sensor{
   name = "storage_house_door_sensor",
   layer = 0,
   x = 104,
@@ -12374,8 +12383,38 @@ teletransporter{
   width = 16,
   height = 80,
   transition = "scrolling",
-  destination_map = "Overworld/C2/C2",
+  destination_map = "Overworld/C3/C3",
   destination = "_side",
+}
+
+destination{
+  name = "from_bomb_shop",
+  layer = 0,
+  x = 400,
+  y = 701,
+  direction = 3,
+}
+
+teletransporter{
+  name = "to_bomb_shop",
+  layer = 0,
+  x = 392,
+  y = 672,
+  width = 16,
+  height = 16,
+  destination_map = "Overworld/C1/Bomb Shop/Bomb Shop",
+  destination = "from_outside",
+}
+
+dynamic_tile{
+  name = "bomb_shop_door",
+  layer = 0,
+  x = 392,
+  y = 672,
+  pattern = "house.door",
+  width = 16,
+  height = 16,
+  enabled_at_start = true,
 }
 
 tile{

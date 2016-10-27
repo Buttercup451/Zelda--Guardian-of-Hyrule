@@ -186,7 +186,7 @@ function savegame_menu:on_draw(dst_surface)
 
   -- The menu makes 320*240 pixels, but dst_surface may be larger.
   local width, height = dst_surface:get_size()
-  self.surface:draw(dst_surface, width / 2 - 160, height / 2 - 120)
+  self.surface:draw(dst_surface, width / 2 - 160, height / 2 - 112)
 end
 
 function savegame_menu:draw_savegame(slot_index)
@@ -1004,7 +1004,7 @@ end
 
 function savegame_menu:set_initial_values(savegame)
 
-  savegame:set_starting_location("0", "start_position")
+  savegame:set_starting_location("Overworld/A1/A1", "from_house")
   savegame:set_value("player_name", self.player_name)
 
   -- Initially give 3 hearts, the first tunic and the first wallet.

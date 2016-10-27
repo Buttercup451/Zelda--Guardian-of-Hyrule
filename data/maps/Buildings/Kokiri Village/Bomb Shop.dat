@@ -3,9 +3,9 @@ properties{
   y = 0,
   width = 640,
   height = 240,
-  world = "inside_world",
   min_layer = 0,
   max_layer = 2,
+  world = "inside_world",
   tileset = "house",
   music = "Kokiri Village",
 }
@@ -875,13 +875,6 @@ destination{
   x = 448,
   y = 61,
   direction = 2,
-}
-
-chest{
-  layer = 1,
-  x = 96,
-  y = 165,
-  sprite = "",
 }
 
 tile{

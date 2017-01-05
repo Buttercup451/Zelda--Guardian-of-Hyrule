@@ -172,6 +172,15 @@ finish the game.
 }
 
 dialog{
+  id = "A2.cave.great_fairy",
+  text = [[
+Come, weary traveler.$0 I will do
+what I can to aid you on your
+journey.
+]]
+}
+
+dialog{
   id = "B1.sign",
   text = [[
 North - Lost Woods

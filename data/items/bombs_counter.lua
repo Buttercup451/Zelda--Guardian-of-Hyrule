@@ -9,8 +9,9 @@ end
 
 -- Called when the player uses the bombs of his inventory by pressing the corresponding item key.
 function item:on_using()
+local bunny_form = item:get_game():get_value("bunny")
 
-  if self:get_amount() == 0 then
+  if self:get_amount() == 0 or bunny_form == true then
     sol.audio.play_sound("wrong")
   else
     self:remove_amount(1)

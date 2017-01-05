@@ -33,6 +33,7 @@ map{ id = "Overworld/A1/Cave Loop", description = "Cave Loop Room" }
 map{ id = "Overworld/A1/Cave Loop 2", description = "Cave Loop Room 2" }
 map{ id = "Overworld/A1/Game of Thieves", description = "Game of Thieves" }
 map{ id = "Overworld/A2/A2", description = "Lumberjack Yard" }
+map{ id = "Overworld/A2/Cave", description = "Cave" }
 map{ id = "Overworld/A2/Lumberjack House", description = "Lumberjack House" }
 map{ id = "Overworld/A3/A3", description = "Death Mountain West" }
 map{ id = "Overworld/B1/B1", description = "South of Lost Woods" }
@@ -61,6 +62,7 @@ map{ id = "Overworld/F2/F2", description = "East of Desert" }
 map{ id = "Overworld/F3/F3", description = "Southwest Swamp" }
 map{ id = "Storage/Inside Store", description = "Inside Storage" }
 map{ id = "Storage/Outside Store", description = "Outside Storage" }
+map{ id = "Test", description = "Test Room" }
 
 tileset{ id = "castle", description = "Castle" }
 tileset{ id = "cave", description = "Cave" }
@@ -209,6 +211,7 @@ sprite{ id = "entities/teletransporter", description = "Teletransporter" }
 sprite{ id = "entities/the_end", description = "The End" }
 sprite{ id = "entities/torch", description = "Torch" }
 sprite{ id = "entities/vine", description = "Vine" }
+sprite{ id = "hero/bunny", description = "Bunny" }
 sprite{ id = "hero/ground1", description = "Ground 1" }
 sprite{ id = "hero/ground2", description = "Ground 2" }
 sprite{ id = "hero/shield1", description = "Shield 1" }
@@ -226,6 +229,7 @@ sprite{ id = "hero/trail", description = "Trail" }
 sprite{ id = "hero/tunic1", description = "Tunic 1" }
 sprite{ id = "hero/tunic2", description = "Tunic 2" }
 sprite{ id = "hero/tunic3", description = "Tunic 3" }
+sprite{ id = "hero/tunic4", description = "Tunic 4" }
 sprite{ id = "hud/action_icon_flip", description = "Action Icon Flip" }
 sprite{ id = "hud/dialog_box_message_end", description = "Dialog Box Message End" }
 sprite{ id = "hud/empty_heart", description = "Empty Heart" }
@@ -287,16 +291,16 @@ sprite{ id = "npc/zelda", description = "Zelda" }
 
 music{ id = "Cave_1", description = "Cave Part 1" }
 music{ id = "Cave_2", description = "Cave Part 2" }
+music{ id = "Frozen Hyrule 1", description = "Frozen Hyrule 1" }
+music{ id = "Frozen Hyrule 2", description = "Frozen Hyrule 2" }
 music{ id = "Kokiri Forest", description = "Kokiri Forest" }
 music{ id = "Kokiri Village", description = "Kokiri Village" }
 music{ id = "Lost_Woods", description = "Lost Woods" }
 music{ id = "agahnim", description = "Agahnim" }
 music{ id = "beginning", description = "Beginning" }
 music{ id = "boss", description = "Boss" }
-music{ id = "castle", description = "Castle" }
 music{ id = "castle_1", description = "Castle Part 1" }
 music{ id = "castle_2", description = "Castle Part 2" }
-music{ id = "cave", description = "Cave" }
 music{ id = "credits", description = "Credits" }
 music{ id = "dark_mountain", description = "Dark Mountain" }
 music{ id = "dark_world", description = "Dark World" }
@@ -322,7 +326,6 @@ music{ id = "legend", description = "Legend" }
 music{ id = "light_world_dungeon", description = "Light World Dungeon" }
 music{ id = "mini_game", description = "Mini Game" }
 music{ id = "opening", description = "Opening" }
-music{ id = "overworld", description = "Overworld" }
 music{ id = "overworld_1", description = "Overworld Part 1" }
 music{ id = "overworld_2", description = "Overworld Part 2" }
 music{ id = "rabbit", description = "Rabbit" }

@@ -152,4 +152,3 @@ function enemy:go_hero()
   being_pushed = false
   going_hero = true
 end
-

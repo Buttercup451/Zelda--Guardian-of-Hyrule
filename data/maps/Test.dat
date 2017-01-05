@@ -1,0 +1,28 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 256,
+  height = 224,
+  min_layer = 0,
+  max_layer = 2,
+  world = "inside_world",
+  tileset = "light_world",
+}
+
+enemy{
+  name = "enemy",
+  layer = 0,
+  x = 104,
+  y = 37,
+  direction = 0,
+  breed = "green_duck_soldier",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 32,
+  y = 45,
+  direction = -1,
+}
+

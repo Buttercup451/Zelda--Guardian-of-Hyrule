@@ -26,7 +26,6 @@ function title_screen:phase_zs_presents()
 
   local width, height = self.zs_presents_img:get_size()
   self.zs_presents_pos = { 160 - width / 2, 120 - height / 2 }
-  sol.audio.set_music_volume(100)
   sol.audio.play_sound("intro")
 
   sol.timer.start(self, 2000, function()

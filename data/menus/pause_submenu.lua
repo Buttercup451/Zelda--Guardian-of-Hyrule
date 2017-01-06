@@ -65,7 +65,12 @@ function submenu:on_started()
   }
 
   self.game:set_custom_command_effect("action", nil)
-  self.game:set_custom_command_effect("attack", "save")
+  local bunny_form = self.game:get_value("bunny")
+  if bunny_form == true then
+    self.game:set_custom_command_effect("attack", nil)
+  else
+    self.game:set_custom_command_effect("attack", "save")
+  end
 end
 
 -- Sets the caption text.
@@ -139,17 +144,22 @@ function submenu:on_command_pressed(command)
   if self.save_dialog_state == 0 then
     -- The save dialog is not shown
     if command == "attack" then
-      sol.audio.play_sound("message_end")
-      self.save_dialog_state = 1
-      self.save_dialog_choice = 0
-      self.save_dialog_sprite:set_animation("left")
-      self.question_text_1:set_text_key("save_dialog.save_question_0")
-      self.question_text_2:set_text_key("save_dialog.save_question_1")
-      self.action_command_effect_saved = self.game:get_custom_command_effect("action")
-      self.game:set_custom_command_effect("action", "validate")
-      self.attack_command_effect_saved = self.game:get_custom_command_effect("attack")
-      self.game:set_custom_command_effect("attack", "validate")
-      handled = true
+      local bunny_form = self.game:get_value("bunny")
+      if bunny_form == false or bunny_form == nil then
+        sol.audio.play_sound("message_end")
+        self.save_dialog_state = 1
+        self.save_dialog_choice = 0
+        self.save_dialog_sprite:set_animation("left")
+        self.question_text_1:set_text_key("save_dialog.save_question_0")
+        self.question_text_2:set_text_key("save_dialog.save_question_1")
+        self.action_command_effect_saved = self.game:get_custom_command_effect("action")
+        self.game:set_custom_command_effect("action", "validate")
+        self.attack_command_effect_saved = self.game:get_custom_command_effect("attack")
+        self.game:set_custom_command_effect("attack", "validate")
+        handled = true
+      elseif bunny_form == true then
+        sol.audio.play_sound("wrong")
+      end
     end
   else
     -- The save dialog is visible.

@@ -14,6 +14,7 @@ map{ id = "Dungeon 1/F2_Dark_Room", description = "Dungeon 1 F2 - Dark Room" }
 map{ id = "Dungeons/Hyrule Castle/F1", description = "F1" }
 map{ id = "Dungeons/Hyrule Castle/F1 Dark Room", description = "F1 Dark Room" }
 map{ id = "Overworld (Old)/A1 (Old)", description = "Old A1" }
+map{ id = "Overworld/-A2", description = "Uncle's Farm" }
 map{ id = "Overworld/A1/A1", description = "Lost Woods" }
 map{ id = "Overworld/A1/Cave", description = "Cave" }
 map{ id = "Overworld/A1/Cave Levels/Cave 1", description = "Cave 1" }

@@ -36,10 +36,10 @@ end
 
 function disable_abilities() -- Prevents player from using abilities when in bunny form
   game = item:get_game()
-  sword_variant = game:get_ability("sword")
-  shield_variant = game:get_ability("shield")
-  swim_variant = game:get_ability("swim")
-  run_variant = game:get_ability("run")
+  game:set_value("sword_variant", game:get_ability("sword"))
+  game:set_value("shield_variant", game:get_ability("shield"))
+  game:set_value("swim_variant", game:get_ability("swim"))
+  game:set_value("run_variant", game:get_ability("run"))
   game:set_ability("sword", 0)
   game:set_ability("shield", 0)
   game:set_ability("swim", 0)
@@ -48,8 +48,8 @@ end
 
 function enable_abilities() -- Gives player their abilities back
   game = item:get_game()
-  game:set_ability("sword", sword_variant)
-  game:set_ability("shield", shield_variant)
-  game:set_ability("swim", swim_variant)
-  game:set_ability("run", run_variant)
+  game:set_ability("sword", game:get_value("sword_variant"))
+  game:set_ability("shield", game:get_value("shield_variant"))
+  game:set_ability("swim", game:get_value("swim_variant"))
+  game:set_ability("run", game:get_value("run_variant"))
 end

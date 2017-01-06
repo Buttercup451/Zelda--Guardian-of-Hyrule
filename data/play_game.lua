@@ -20,8 +20,25 @@ end
 function game:on_finished()
 
   -- Clean what was created by on_started().
-  self:quit_hud()
-  self:quit_dialog_box()
+
+  local bunny_form = game:get_value("bunny")
+  if bunny_form == true then -- Player quit game while in bunny form
+    restore_items_and_abilities()
+  else
+    self:quit_hud()
+    self:quit_dialog_box()
+  end
+end
+
+-- The player has quit the game while still in bunny form
+function restore_items_and_abilities()
+  game:set_value("bunny", false)
+  game:set_ability("sword", game:get_value("sword_variant"))
+  game:set_ability("shield", game:get_value("shield_variant"))
+  game:set_ability("swim", game:get_value("swim_variant"))
+  game:set_ability("run", game:get_value("run_variant"))
+  game:quit_hud()
+  game:quit_dialog_box()
 end
 
 -- This event is called when a new map has just become active.
